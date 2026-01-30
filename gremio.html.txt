@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Grêmio Fan Page 💙</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0a2a66, #000);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: url("https://upload.wikimedia.org/wikipedia/commons/0/08/Gremio_logo.svg") no-repeat center;
+      background-size: 180px;
+      background-position-y: 20px;
+    }
+
+    header h1 {
+      margin-top: 200px;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-left: 5px solid #00aaff;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .frase {
+      font-size: 1.4em;
+      text-align: center;
+      font-style: italic;
+      margin-top: 30px;
+      color: #cce6ff;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .social a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      color: white;
+      background: #0077cc;
+      transition: background 0.3s;
+    }
+
+    .social a:hover {
+      background: #00aaff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #000;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Grêmio Foot-Ball Porto Alegrense</h1>
+    <p>Fan Page • Imortal Tricolor 💙</p>
+  </header>
+
+  <section>
+    <h2>Sobre o Grêmio</h2>
+    <p>
+      O Grêmio é mais que um time. É raça, história, superação e amor eterno.
+      Fundado em 1903, o Tricolor Gaúcho carrega uma das torcidas mais apaixonadas
+      do Brasil e do mundo.
+    </p>
+  </section>
+
+  <section>
+    <h2>Conquistas Históricas</h2>
+    <div class="cards">
+      <div class="card">🏆 Libertadores<br>1983 • 1995 • 2017</div>
+      <div class="card">🌎 Mundial<br>1983</div>
+      <div class="card">🏆 Copa do Brasil<br>5 títulos</div>
+      <div class="card">🏆 Brasileirão<br>1981 • 1996</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Frase da Torcida</h2>
+    <p class="frase">
+      “Com o Grêmio, onde o Grêmio estiver 💙”
+    </p>
+  </section>
+
+  <section>
+    <h2>Redes da Fan Page</h2>
+    <div class="social">
+      <a href="#" target="_blank">📸 Instagram</a>
+      <a href="#" target="_blank">🎵 TikTok</a>
+      <a href="#" target="_blank">▶️ YouTube</a>
+    </div>
+  </section>
+
+  <footer>
+    Página de fã do Grêmio • Criada com amor 💙⚽<br>
+    Não oficial
+  </footer>
+
+</body>
+</html>
